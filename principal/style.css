@@ -4,53 +4,48 @@ body {
     flex-direction: column;
     align-items: center;
     color: #DCDBDB;
-    padding: 50px 50px 0 50px;
+    padding: 20px;
 }
 
 h1 {
     color:  #DCE2F0;
     text-align: center;
     font-family: 'Arial Black', sans-serif;
-    font-size: 55px;
-    margin-bottom: 40px;
-    text-shadow: 10px 5px #485456;
+    font-size: clamp(24px, 8vw, 55px);
+    margin-bottom: 20px;
+    text-shadow: 4px 2px #485456;
     text-decoration: underline;
 }
 
 h3 {
     color: #F0EDCC;
-    font-size: 35px;
+    font-size: clamp(20px, 5vw, 35px);
     font-family: Arial, sans-serif;
     margin-top: 30px;
     margin-bottom: 15px;
     text-decoration: underline;
-}
-
-h2 {
-    color: #F0EDCC;
-    font-size: 25px;
-    font-family: Arial, sans-serif;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    text-align: center;
 }
 
 p {
     color: #F0EDCC;
-    font-size: 24px;
+    font-size: clamp(16px, 4vw, 24px);
     font-family: 'Segoe UI', Tahoma, sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
     max-width: 900px;
+    width: 100%;
 }
 
 .img-style {
     display: block;
-    margin: 20px 0;
+    margin: 20px auto;
+    max-width: 100%;
     width: 350px;
+    height: auto;
     border-radius: 8px;
     border: 2px solid #DCDBDB;
     padding: 10px;
-    transform: scale(1.05);
 }
 
 .img-formula {
@@ -62,8 +57,13 @@ p {
     padding: 10px;
 }
 
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 footer {
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Segoe UI', Tahoma, sans-serif;
     background-color: #F0EDCC;
     text-align: center;
@@ -72,51 +72,30 @@ footer {
     margin-top: 50px;
 }
 
-.footer {
-    color: #02343F;
-    text-decoration: none;
-}
-
-.center{
-  display: block;
-  margin: 0 auto;
-  width: 15%; 
-}
-
-.right{
-  float: right;
-  width: 25%;
-}
-
-.left{
-  float: left;
-  width: 25%;
-}
-
-#descp_p1{
-    display: block;
-    margin-left: auto;
-    margin-top: auto;
-    margin-right: auto;
-    width: 13%; 
-}
-
-mark{
-    color: #02343F;
-}
-
-button{
-    min-width: 80px;
-    height: 40px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
-
 .nav-container {
     display: flex;       
-    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;          
     margin-bottom: 20px;
+    width: 100%;
+}
+
+button {
+    min-width: 80px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .left, .right, #descp_p1 {
+        width: 100%;
+        margin: 10px 0;
+        float: none;
+        text-align: center;
+    }
 }
