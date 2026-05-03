@@ -1,0 +1,122 @@
+body {
+    background-color:#02343F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #DCDBDB;
+    padding: 50px 50px 0 50px;
+}
+
+h1 {
+    color:  #DCE2F0;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 55px;
+    margin-bottom: 40px;
+    text-shadow: 10px 5px #485456;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #F0EDCC;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #F0EDCC;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #F0EDCC;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 900px;
+}
+
+.img-style {
+    display: block;
+    margin: 20px 0;
+    width: 350px;
+    border-radius: 8px;
+    border: 2px solid #DCDBDB;
+    padding: 10px;
+    transform: scale(1.05);
+}
+
+.img-formula {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #DCDBDB;
+    padding: 10px;
+}
+
+footer {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #F0EDCC;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer {
+    color: #02343F;
+    text-decoration: none;
+}
+
+.center{
+  display: block;
+  margin: 0 auto;
+  width: 15%; 
+}
+
+.right{
+  float: right;
+  width: 25%;
+}
+
+.left{
+  float: left;
+  width: 25%;
+}
+
+#descp_p1{
+    display: block;
+    margin-left: auto;
+    margin-top: -600px;
+    margin-right: 450px;
+    width: 13%; 
+}
+
+mark{
+    color: #02343F;
+}
+
+button{
+    min-width: 80px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.nav-container {
+    display: flex;       
+    flex-direction: row; 
+    gap: 10px;          
+    margin-bottom: 20px;
+}
