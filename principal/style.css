@@ -96,8 +96,8 @@ footer {
 #descp_p1{
     display: block;
     margin-left: auto;
-    margin-top: -600px;
-    margin-right: 450px;
+    margin-top: auto;
+    margin-right: auto;
     width: 13%; 
 }
 
