@@ -6,7 +6,6 @@ body {
     color: #DCDBDB;
     padding: 50px 50px 0 50px;
 }
-
 h1 {
     color:  #DCE2F0;
     text-align: center;
@@ -16,7 +15,6 @@ h1 {
     text-shadow: 10px 5px #485456;
     text-decoration: underline;
 }
-
 h3 {
     color: #F0EDCC;
     font-size: 35px;
@@ -25,7 +23,6 @@ h3 {
     margin-bottom: 15px;
     text-decoration: underline;
 }
-
 h2 {
     color: #F0EDCC;
     font-size: 25px;
@@ -33,7 +30,13 @@ h2 {
     margin-top: 25px;
     margin-bottom: 15px;
 }
-
+h4 {
+    color: #F0EDCC;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
 p {
     color: #F0EDCC;
     font-size: 24px;
@@ -42,7 +45,6 @@ p {
     margin-bottom: 20px;
     max-width: 900px;
 }
-
 .img-style {
     display: block;
     margin: 20px 0;
@@ -52,7 +54,6 @@ p {
     padding: 10px;
     transform: scale(1.05);
 }
-
 .img-formula {
     display: block;
     margin: 20px auto;
@@ -61,7 +62,6 @@ p {
     border: 2px solid #DCDBDB;
     padding: 10px;
 }
-
 footer {
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, sans-serif;
@@ -71,40 +71,18 @@ footer {
     padding: 20px 0;
     margin-top: 50px;
 }
-
 .footer {
     color: #02343F;
     text-decoration: none;
 }
-
 .center{
   display: block;
   margin: 0 auto;
   width: 15%; 
 }
-
-.right{
-  float: right;
-  width: 25%;
-}
-
-.left{
-  float: left;
-  width: 25%;
-}
-
-#descp_p1{
-    display: block;
-    margin-left: auto;
-    margin-top: -600px;
-    margin-right: 450px;
-    width: 13%; 
-}
-
 mark{
     color: #02343F;
 }
-
 button{
     min-width: 80px;
     height: 40px;
@@ -113,10 +91,48 @@ button{
     justify-content: center;
     align-items: center;  
 }
-
 .nav-container {
     display: flex;       
     flex-direction: row; 
     gap: 10px;          
     margin-bottom: 20px;
+}
+table {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #02343F;
+    border: 1px solid #F0EDCC;
+}
+th{
+    border: 1px solid #02343F;
+    padding: 12px;
+    text-align: center;
+}
+td {
+    border: 1px solid #F0EDCC;
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background-color: #F0EDCC;
+    color: #02343F;
+}
+.button{
+    color: #F0EDCC;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+button{
+    background-color: #02343F;
+    color:#F0EDCC ;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-decoration: underline #02343F ;
 }
